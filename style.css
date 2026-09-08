@@ -1,36 +1,36 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;padding:0;background:#fff;color:#222;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7}
-.site-container{width:100%;max-width:820px;margin:0 auto;padding:45px 25px 60px}
-.hero{text-align:center;margin-bottom:50px}
-.profile-image{width:185px;height:185px;object-fit:cover;display:block;margin:0 auto 25px;border-radius:50%;border:4px solid #0e6b4f}
-.hero h1{margin:0;color:#111;font-size:2.35rem;font-weight:700;letter-spacing:-.5px}
-.tagline{margin:8px 0 0;color:#666;font-size:1rem}
-.home-intro{text-align:center;max-width:680px;margin:0 auto}
-.home-intro p{color:#444;font-size:1rem}
-.read-more{display:inline-block;margin-top:10px;color:#0e6b4f;text-decoration:none;font-weight:600}
+body{margin:0;padding:0;background:#fff;color:#222;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.8}
+.site-container{width:100%;max-width:1050px;margin:0 auto;padding:70px 45px 90px}
+.hero{text-align:center;margin-bottom:75px}
+.profile-image{width:250px;height:250px;object-fit:cover;display:block;margin:0 auto 30px;border-radius:50%;border:5px solid #0e6b4f}
+.hero h1{margin:0;color:#111;font-size:3.2rem;font-weight:700;letter-spacing:-1px}
+.tagline{margin:12px 0 0;color:#666;font-size:1.2rem}
+.home-intro{text-align:center;max-width:850px;margin:0 auto}
+.home-intro p{color:#444;font-size:1.15rem}
+.read-more{display:inline-block;margin-top:15px;color:#0e6b4f;text-decoration:none;font-weight:600;font-size:1.05rem}
 .read-more:hover{text-decoration:underline}
-.content{width:100%}
-.content h2{margin:0 0 28px;padding-bottom:9px;border-bottom:2px solid #0e6b4f;color:#111;font-size:1.8rem}
-.content h3{margin-top:32px;margin-bottom:10px;color:#111;font-size:1.22rem}
-.content p{margin-top:0;margin-bottom:17px;color:#333;font-size:1rem}
-.film-card{border-left:3px solid #0e6b4f;padding:5px 0 5px 18px;margin:15px 0 30px}
-.film-card h4{margin:0;font-size:1.15rem;color:#111}
-.film-card p{margin:3px 0}
-.film-year{color:#666!important;font-size:.95rem!important}
-.quick-facts{margin-top:45px}
+.content{width:100%;max-width:900px;margin:0 auto}
+.content h2{margin:0 0 40px;padding-bottom:12px;border-bottom:3px solid #0e6b4f;color:#111;font-size:2.3rem}
+.content h3{margin-top:48px;margin-bottom:15px;color:#111;font-size:1.55rem}
+.content p{margin-top:0;margin-bottom:22px;color:#333;font-size:1.1rem}
+.film-card{border-left:4px solid #0e6b4f;padding:10px 0 10px 22px;margin:20px 0 40px}
+.film-card h4{margin:0;font-size:1.4rem;color:#111}
+.film-card p{margin:5px 0}
+.film-year{color:#666!important;font-size:1rem!important}
+.quick-facts{margin-top:60px}
 .quick-facts h3{margin-top:0}
-.quick-facts ul{margin:0;padding-left:25px}
-.quick-facts li{margin-bottom:8px;color:#333}
+.quick-facts ul{margin:0;padding-left:30px}
+.quick-facts li{margin-bottom:12px;color:#333;font-size:1.05rem}
 .quick-facts strong{color:#111}
-.connect{margin-top:48px}
+.connect{margin-top:65px}
 .connect h3{margin-top:0}
-.social-links{display:flex;flex-wrap:wrap;align-items:center;gap:7px;font-size:.98rem}
+.social-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:1.05rem}
 .social-links a{color:#0e6b4f;text-decoration:none;font-weight:600}
 .social-links a:hover{color:#094c38;text-decoration:underline}
 .social-links span{color:#999}
-footer{margin-top:60px;padding-top:20px;border-top:1px solid #ddd;text-align:center;color:#777;font-size:.85rem}
-footer p{margin:5px 0}
+footer{margin-top:80px;padding-top:25px;border-top:1px solid #ddd;text-align:center;color:#777;font-size:.95rem}
+footer p{margin:6px 0}
 footer a{color:#0e6b4f;text-decoration:none}
 footer a:hover{text-decoration:underline}
-@media(max-width:600px){.site-container{padding:30px 20px 45px}.hero{margin-bottom:40px}.profile-image{width:150px;height:150px;margin-bottom:20px}.hero h1{font-size:1.9rem}.tagline{font-size:.92rem;padding:0 10px}.content h2{font-size:1.55rem}.content h3{font-size:1.1rem}.content p{font-size:.96rem}.social-links{line-height:2}}
+@media(max-width:600px){.site-container{padding:45px 22px 60px}.hero{margin-bottom:55px}.profile-image{width:200px;height:200px;margin-bottom:25px}.hero h1{font-size:2.4rem}.tagline{font-size:1rem;padding:0 10px}.content h2{font-size:1.9rem}.content h3{font-size:1.3rem}.content p{font-size:1rem}.social-links{line-height:2}}
